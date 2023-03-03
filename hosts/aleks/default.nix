@@ -26,7 +26,6 @@
 
       programs = {
         discord.enable = true;
-        gamemode.enable = true;
       };
     };
 

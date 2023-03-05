@@ -23,6 +23,6 @@ with lib;
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
     loader.efi.efiSysMountPoint = "/boot/efi";
-    kernelPackages = pkgs.linuxPackages_zen;
+    kernelPackages = pkgs.linuxKernel.packages.linux_zen;
   };
 }

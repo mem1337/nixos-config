@@ -13,7 +13,6 @@
       kde.enable = true;
       apps.enable = true;
       fonts.enable = true;
-      python.enable = true;
 
       browsers = {
         default = "firefox";

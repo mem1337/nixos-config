@@ -23,6 +23,7 @@ in
       tdesktop
       qbittorrent
       libsForQt5.qtstyleplugin-kvantum
+      lm_sensors
     ];
   };
 }

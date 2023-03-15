@@ -11,6 +11,8 @@ in
 
   config = mkIf cfg.enable {
     virtualisation.docker.enable = true;
+    virtualisation.docker.liveRestore = false;
     users.users.aleks.extraGroups = [ "docker" ];
   };
+
 }

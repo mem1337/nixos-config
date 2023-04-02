@@ -13,6 +13,7 @@
       kde.enable = true;
       apps.enable = true;
       fonts.enable = true;
+      i3.enable = false;
 
       browsers = {
         default = "firefox";
@@ -26,7 +27,7 @@
 
       programs = {
         discord.enable = true;
-        docker.enable = true;
+        docker.enable = false;
       };
     };
 

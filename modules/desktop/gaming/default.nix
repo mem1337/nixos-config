@@ -13,6 +13,7 @@ in
     environment.systemPackages = with pkgs; [
       lutris
       heroic
+      protonup-ng
     ];
     programs.gamemode = {
       enable = true;

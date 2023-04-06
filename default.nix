@@ -40,12 +40,12 @@ with lib.my;
       warn-dirty = false;
     };
 
-#    gc = {
-#      automatic = true;
-#      dates = "daily";
-#      options = "--delete-older-than 3d";
-#    };
-#  };
+    gc = {
+      automatic = true;
+      dates = "daily";
+      options = "--delete-older-than 3d";
+    };
+};
 
   system.configurationRevision = with inputs; mkIf (self ? rev) self.rev;
 
@@ -79,5 +79,5 @@ with lib.my;
 
     polkit.enable = true;
   };
-};
 }
+
